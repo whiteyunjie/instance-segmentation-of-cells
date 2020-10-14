@@ -9,7 +9,9 @@ it's an instance segmentation task. However, I have finished it through methods 
 
 ### post processing:
   watershed
+  
   Connected domain
+  
   clustering
 
 ### results:
@@ -33,9 +35,9 @@ evaluate training results
 **path**
 
 ##### dataset1：
-	`os.path.join('dataset1/train/',img) for img in os.listdir('dataset1/train/')
+	os.path.join('dataset1/train/',img) for img in os.listdir('dataset1/train/')
 	
-  	os.path.join('dataset1/train_GT/SEG/',img) for img in os.listdir('dataset1/train_GT/SEG/')`
+  	os.path.join('dataset1/train_GT/SEG/',img) for img in os.listdir('dataset1/train_GT/SEG/')
 #### dataset2:
 
 	os.path.join('dataset2/train/',img) for img in os.listdir('dataset2/train/')
